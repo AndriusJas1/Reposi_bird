@@ -1,4 +1,10 @@
-body {
-    background-color: black;
-    color: red;
+.about-container {
+    background-image: url(../img/Background.png);
+    background-size: cover;
+}
+.about {
+    display: flex;
+}
+.about-item2 {
+    color: orange;
 }
