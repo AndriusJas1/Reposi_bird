@@ -8,3 +8,18 @@
 .about-item2 {
     color: orange;
 }
+
+body {
+    margin: 0;
+}
+
+.container {
+    
+    background-image: url(../img/Background.png);
+    background-size: cover;
+    width: 1920px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
