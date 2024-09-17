@@ -1,36 +1,16 @@
 .about-container {
-    background-image: url(../img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.png);
+    background-image: url(../img/Background.png);
     background-size: cover;
-    width: 100vw;
-    height: 80vh;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.about-title {
+.about-about {
     display: flex;
-    margin-left: 375px;
 }
+
 .about-item2 {
     color: orange;
-    margin-top: 210px;
-    font-size: 42px;
-    margin-left: 10px;
 }
-.about-item3 {
-    font-size: 42px;
-    margin-top: 210px;
-    color: white;
-    margin-left: 10px;
-}
-.about-item4 {
-    margin-top: 35px;
-    color: white;
-    margin-left: 365px;
-}
-.about-img1 {
-    margin-top: 210px;
-}
+
 body {
     margin: 0;
 }
@@ -50,6 +30,7 @@ ul {
     padding: 0;
     margin: 0;
     border: solid 1px black;
+
 }
 
 li {
@@ -58,16 +39,50 @@ li {
 }
 
 .navbar {
-    padding: 30px;
     width: 100%;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.navbar-buttons * {
+    width: 80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: px;
+    padding-right: px;
+    text-align: center;
 
 }
 
 .navbar li {}
+
+.navbar .logo {}
+
+.navbar .logo-1 {}
+
+.navbar .home {
+    background-color: #f7672c;
+}
+
+.navbar .icon-bars {}
 
 .logo {
     margin-left: 20px;
 }
 
 .logo-1 {}
+
+a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+
+}
