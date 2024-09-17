@@ -1,14 +1,36 @@
 .about-container {
-    background-image: url(../img/Background.png);
+    background-image: url(../img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.png);
     background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.about {
+
+.about-title {
     display: flex;
+    margin-left: 375px;
 }
 .about-item2 {
     color: orange;
+    margin-top: 210px;
+    font-size: 42px;
+    margin-left: 10px;
 }
-
+.about-item3 {
+    font-size: 42px;
+    margin-top: 210px;
+    color: white;
+    margin-left: 10px;
+}
+.about-item4 {
+    margin-top: 35px;
+    color: white;
+    margin-left: 365px;
+}
+.about-img1 {
+    margin-top: 210px;
+}
 body {
     margin: 0;
 }
@@ -22,28 +44,30 @@ body {
     height: 100vh;
     margin: 0;
 }
-ul{
+
+ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     border: solid 1px black;
 }
-li{
+
+li {
     border: solid 1px black;
 
 }
-.navbar{
+
+.navbar {
     padding: 30px;
     width: 100%;
     display: inline-flex;
-    
+
 }
-.navbar li{
-    
-}
-.logo{
+
+.navbar li {}
+
+.logo {
     margin-left: 20px;
 }
-.logo-1{
-    
-}
+
+.logo-1 {}
