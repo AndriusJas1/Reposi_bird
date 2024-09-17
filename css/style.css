@@ -2,9 +2,11 @@
     background-image: url(../img/Background.png);
     background-size: cover;
 }
-.about {
+
+.about-about {
     display: flex;
 }
+
 .about-item2 {
     color: orange;
 }
@@ -22,28 +24,65 @@ body {
     height: 100vh;
     margin: 0;
 }
-ul{
+
+ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     border: solid 1px black;
+
 }
-li{
+
+li {
     border: solid 1px black;
 
 }
-.navbar{
-    padding: 30px;
+
+.navbar {
     width: 100%;
-    display: inline-flex;
-    
+    display: flex;
+    align-items: center;
 }
-.navbar li{
-    
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
 }
-.logo{
+
+.navbar-buttons * {
+    width: 80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: px;
+    padding-right: px;
+    text-align: center;
+
+}
+
+.navbar li {}
+
+.navbar .logo {}
+
+.navbar .logo-1 {}
+
+.navbar .home {
+    background-color: #f7672c;
+}
+
+.navbar .icon-bars {}
+
+.logo {
     margin-left: 20px;
 }
-.logo-1{
-    
+
+.logo-1 {}
+
+a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+
 }
