@@ -1,15 +1,16 @@
 body {
     margin: 0;
+
 }
 
 .container {
     background-image: url(../img/Background.png);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    height: 1230px;
     margin: 0;
+
+
 }
 
 ul {
@@ -29,30 +30,62 @@ li {
     width: 100%;
     display: flex;
     align-items: center;
+
+
 }
 
 .navbar-buttons {
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 180px;
+    width: 500px;
+    font-family: "Poppins";
 
 }
 
 .navbar-buttons * {
-    width: 80px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: px;
-    padding-right: px;
+    font-size: 17px;
+    line-height: 32px;
+    width: 85px;
+    height: 75px;
+    padding-left: 0px;
+    padding-right: 0px;
     text-align: center;
+    font-size: 17px;
+
 
 }
 
+.navbar-buttons {}
+
 .navbar li {}
 
-.navbar .logo {}
+.navbar-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    font-size: 17px;
+    line-height: 32px;
+    width: 85px;
+    height: 75px;
+    color: white;
+    text-decoration: none;
 
-.navbar .logo-1 {}
+}
+
+.navbar-buttons li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logo {
+    margin-top: 26px;
+}
+
+.logo-1 {
+    margin-top: 26px;
+}
 
 .navbar .home {
     background-color: #f7672c;
@@ -61,10 +94,18 @@ li {
 .navbar .icon-bars {}
 
 .logo {
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
-.logo-1 {}
+.logo-1 {
+    font-size: 25px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fbfdfd;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-left: 10px;
+}
 
 a {
     padding: 0px;
@@ -73,3 +114,156 @@ a {
     color: white;
 
 }
+
+.title {
+    color: white;
+    height: 400px;
+    width: 500px;
+    margin-top: 380px;
+    margin-left: 400px;
+}
+
+.title-1 {}
+
+.title h1 {
+    font-size: 90px;
+    line-height: 90px;
+    color: #fbfdfd;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 0;
+    width: 700px;
+}
+
+.title-text {
+    width: 692px;
+    height: 55px;
+    font-size: 17px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.title-1-text {
+    font-size: 42px;
+    line-height: 27px;
+    color: #02191b;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.title-1 p {
+    width: 1173px;
+    height: 67px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #1a1919;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title button {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-top: 70px;
+}
+
+.blue-text {
+    color: #0bd7f7;
+    font-weight: bold;
+}
+
+.btn {
+    width: 235px;
+    height: 69px;
+    border: 0;
+
+}
+
+.btn-orange {
+    color: white;
+    background-color: #f7672c;
+}
+
+.btn-white {
+    margin-left: 25px;
+    color: black;
+    background-color: #ffffff;
+}
+
+.wave {
+    margin-top: -360px;
+    /* Moves the SVG 50px higher */
+}
+
+.title-img {
+    width: 50px;
+}
+
+.roullete {
+    display: flex;
+    justify-content: center;
+    /* Centers the items horizontally */
+    flex-wrap: wrap;
+    /* Allows wrapping to the next line */
+    gap: 20px;
+    /* Adjusts space between items */
+}
+
+
+.roullete-icons {
+    margin: 15px;
+    width: 235px;
+    height: 226px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 2.51px solid #dddddd;
+
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+.roullete-icons img {
+    max-width: 100%; /* Ensure the image doesn't overflow the container */
+    max-height: 100%;
+    object-fit: contain; /* Ensure the image scales proportionally */
+}
+.roullete-icons {
+    margin: 15px;
+    width: 235px;
+    height: 226px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 2.51px solid #dddddd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Make it relative so the text can be positioned */
+}
+
+.roullete-icons img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.roullete-text {
+    position: absolute;
+    bottom: -30px; /* Move the text below the box */
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
