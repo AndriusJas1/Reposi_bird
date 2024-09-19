@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(230, 230, 230);
+    background-color:#ededed;
     margin: 0;
 }
 
@@ -49,6 +49,52 @@ header {
 .logo1 {
     height: 35px;
     position: relative;
-    
 }
 
+.grid-container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    border: 2px solid black;
+    width: 1000px;
+    height: 850px;
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+
+.photo1 {
+    width: 300px;
+    height: 500px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.photo2 {
+    width: 650px;
+    height: 250px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.photo3 {
+    width: 300px;
+    height: 500px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.photo4 {
+    width: 200px;
+    height: 200px;
+}
+
+.photo5 {
+    width: 300px;
+    height: 300px;
+}
+
+.photo6 {
+    width: 200px;
+    height: 200px;
+}
