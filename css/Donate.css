@@ -1,0 +1,127 @@
+.donate-container {
+  background-image: url();
+  width: 100vw;
+  height: 70vh;
+}
+.donate-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 295px;
+}
+.donate-img1 {
+  width: 52px;
+  height: 52px;
+}
+.donate-item1 {
+  font-size: 60px;
+  line-height: 32px;
+  color: #292929;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+  margin-left: 10px;
+}
+.donate-item2 {
+  width: 827px;
+  height: 301px;
+  background-color: #222222;
+  margin-left: 874px;
+  margin-top: 100px;
+}
+.donate-item3 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 400px;
+  height: 22px;
+}
+.donate-item4 {
+  opacity: 0.69;
+  width: 640px;
+  height: 194px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-left: 134px;
+  margin-top: 15px;
+}
+.donate-item5 {
+  font-size: 26px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto";
+  margin-left: 25%;
+}
+.donate-dot {
+  border: 1px solid #f7672b;
+  width: 16px;
+  height: 17px;
+  border-radius: 10px;
+  background-color: #f7672b;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.donate-dot2 {
+  border: 1px solid #f7672b;
+  width: 33px;
+  height: 19px;
+  border-radius: 10px;
+  background-color: #f7672b;
+}
+.donate-dot3 {
+  border: 1px solid #0bd7f7;
+  width: 33px;
+  height: 19px;
+  border-radius: 10px;
+  background-color: #0bd7f7;
+  margin-left: 10px;
+}
+.donate-dot4 {
+  border: 1px solid #f7672b;
+  width: 33px;
+  height: 19px;
+  border-radius: 10px;
+  background-color: #f7672b;
+  margin-left: 10px;
+}
+.donate-dots {
+  display: flex;
+  margin-left: 50%;
+  margin-top: 150px;
+}
+.donate-content {
+  background-color: #f7672b;
+  width: 188px;
+  height: 184px;
+  margin-left: -92px;
+  margin-top: -175px;
+}
+.donate-img2 {
+  width: 168px;
+  height: 224px;
+  margin-left: -80px;
+  margin-top: -40px;
+}
+.donate-img3 {
+  display: flex;
+  height: 34px;
+  margin-left: 125px;
+  margin-top: -200px;
+}
+.donate-img4 {
+  margin-left: 595px;
+  margin-top: -30px;
+  width: 34px;
+  height: 34px;
+}
+footer {
+  background-color: #011113;
+  height: 30vh;
+}
