@@ -53,48 +53,54 @@ header {
 
 .grid-container {
     display: grid;
-    gap: 5px;
+    gap: 10px;
+    padding: 10px;
     grid-template-columns: auto auto auto;
     border: 2px solid black;
     width: 1000px;
-    height: 850px;
+    height: 1000px;
     position: relative;
-    left: 450px;
+    left: 430px;
     top: 100px;
+    background-color: #f76a2f;
 }
 
 .photo1 {
     width: 300px;
     height: 500px;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row: 1 / 3;
+    border: 2px solid black;
 }
 
 .photo2 {
-    width: 650px;
-    height: 250px;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    width: 680px;
+    height: 300px;
+    grid-column: 2 / 4;
+    border: 2px solid black;
 }
 
 .photo3 {
-    width: 300px;
-    height: 500px;
+    width: 360px;
+    height: 570px;
     grid-row-start: 2;
     grid-row-end: 4;
+    border: 2px solid black;
 }
 
 .photo4 {
-    width: 200px;
-    height: 200px;
+    width: 305px;
+    height: 260px;
+    border: 2px solid black;
 }
 
 .photo5 {
     width: 300px;
     height: 300px;
+    border: 2px solid black;
 }
 
 .photo6 {
-    width: 200px;
-    height: 200px;
+    width: 305px;
+    height: 260px;
+    border: 2px solid black;
 }
