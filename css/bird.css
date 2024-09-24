@@ -1,6 +1,7 @@
 body {
     background-color:#ededed;
     margin: 0;
+    height: 1400px;
 }
 
 h1 {
@@ -15,11 +16,11 @@ p {
     padding-left: 500px;
     padding-right: 500px;
     position: relative;
-    bottom: 60px;
+    bottom: 90px;
 }
 
 header {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Poppins";
     background-color: white;
     height: 200px;
     margin: auto;
@@ -27,23 +28,24 @@ header {
 
 .color0 {
     position: relative;
-    top: 65px;
-    right: 90px;
+    top: 60px;
+    right: 105px;
+    font-weight: 700;
 }
 
 .color1 {
     color: #0bd7f7;
     position: relative;
     left: 140px;
-    top: 19px;
+    font-weight: 700;
 }
 
 .color2 {
     color: #f76a2f;
     position: relative;
-    left: 230px;
-    bottom: 60px;
-    font-size: 70px;
+    left: 250px;
+    bottom: 75px;
+    font-size: 50px;
 }
 
 .logo1 {
@@ -53,52 +55,66 @@ header {
 
 .grid-container {
     display: grid;
-    gap: 10px;
-    padding: 10px;
+    gap: 15px;
     grid-template-columns: auto auto auto;
-    border: 2px solid black;
+    width: 1000px;
     position: relative;
     left: 430px;
     top: 100px;
-    background-color: #f76a2f;
 }
 
 .photo1 {
     width: 300px;
-    height: 500px;
+    height: 575px;
     grid-row: 1 / 3;
-    border: 2px solid black;
 }
 
 .photo2 {
     width: 680px;
     height: 300px;
     grid-column: 2 / 4;
-    border: 2px solid black;
 }
 
 .photo3 {
     width: 360px;
-    height: 570px;
+    height: 535px;
     grid-row-start: 2;
     grid-row-end: 4;
-    border: 2px solid black;
 }
 
 .photo4 {
     width: 305px;
     height: 260px;
-    border: 2px solid black;
 }
 
 .photo5 {
     width: 300px;
-    height: 300px;
-    border: 2px solid black;
+    height: 260px;
 }
 
 .photo6 {
     width: 305px;
     height: 260px;
-    border: 2px solid black;
+}
+
+.btn-click .button {
+    position: relative;
+    top: 200px;
+    left: 860px;
+    background-color: #f76a2f;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "poppins";
+}
+
+.btn-click .button:hover {
+    background-color: #ca521f;
+    font-family: "poppins";
 }
