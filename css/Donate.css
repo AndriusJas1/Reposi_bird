@@ -57,7 +57,8 @@
   color: #ffffff;
   font-weight: 700;
   font-family: "Roboto";
-  margin-left: 25%;
+  margin-left: 20%;
+  padding: 40px;
 }
 .donate-dot {
   border: 1px solid #f7672b;
@@ -123,5 +124,41 @@
 }
 footer {
   background-color: #011113;
-  height: 30vh;
+  height: 20vh;
+}
+body {
+  margin: 0;
+  background-image: url(../img/Screenshot\ 2024-09-24\ 112730.png);
+}
+.donate-form {
+  margin-left: 532px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #4b4b4b;
+  font-weight: 400;
+  font-family: "Roboto";
+  background-color: #011213;
+  border: 1px solid #011113;
+  width: 242px;
+  height: 43px;
+}
+.donate-hr {
+  width: 1410px;
+  background-color: #011113;
+}
+.donate-btn {
+  width: 242px;
+  height: 43px;
+  background-color: #f7672c;
+  margin-left: 922px;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+}
+.donate-formbutton {
+  display: flex;
 }
