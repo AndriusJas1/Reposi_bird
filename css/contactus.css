@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url(../img/contactus2.png);
+  background-repeat: no-repeat;
+  background-size: 1950px 400px;
+}
+.container-title {
+  padding-bottom: 100px;
+  padding-top: 120px;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 50px;
+  line-height: 32px;
+  color: #292929;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+  margin: 0;
+}
+.context {
+  height: 1000px;
+  width: 1920px;
+  background-image: url(../img/Maps.png);
+  background-repeat: no-repeat;
+}
+.img1 {
+  width: 51px;
+  height: 48px;
+}
+.container-form {
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  margin-top: 100px;
+  border-radius: 30px;
+  box-shadow: 2px 3px 14px 9px rgba(0, 0, 0, 0.13);
+}

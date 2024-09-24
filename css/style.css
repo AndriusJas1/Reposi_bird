@@ -1,6 +1,6 @@
 body {
     margin: 0;
-
+    height: 1900px;
 }
 
 .container {
@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     height: 1230px;
     margin: 0;
-
+    
 
 }
 
@@ -31,7 +31,6 @@ li {
     display: flex;
     align-items: center;
 
-
 }
 
 .navbar-buttons {
@@ -52,7 +51,6 @@ li {
     padding-right: 0px;
     text-align: center;
     font-size: 17px;
-
 
 }
 
@@ -216,7 +214,6 @@ a {
     /* Adjusts space between items */
 }
 
-
 .roullete-icons {
     margin: 15px;
     width: 235px;
@@ -225,16 +222,22 @@ a {
     background-color: #ffffff;
     border: 2.51px solid #dddddd;
 
-    display: flex; /* Enable flexbox */
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    display: flex;
+    /* Enable flexbox */
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
 }
 
 .roullete-icons img {
-    max-width: 100%; /* Ensure the image doesn't overflow the container */
+    max-width: 100%;
+    /* Ensure the image doesn't overflow the container */
     max-height: 100%;
-    object-fit: contain; /* Ensure the image scales proportionally */
+    object-fit: contain;
+    /* Ensure the image scales proportionally */
 }
+
 .roullete-icons {
     margin: 15px;
     width: 235px;
@@ -246,7 +249,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; /* Make it relative so the text can be positioned */
+    position: relative;
+    /* Make it relative so the text can be positioned */
 }
 
 .roullete-icons img {
@@ -257,7 +261,8 @@ a {
 
 .roullete-text {
     position: absolute;
-    bottom: -30px; /* Move the text below the box */
+    bottom: -30px;
+    /* Move the text below the box */
     left: 50%;
     transform: translateX(-50%);
     font-family: "Poppins";
@@ -267,3 +272,13 @@ a {
     text-align: center;
 }
 
+.text-center {
+    text-align: center;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1a1919;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
