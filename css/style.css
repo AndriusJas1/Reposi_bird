@@ -4,33 +4,44 @@ body {
 }
 
 .container {
-    background-image: url(../img/Background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
     height: 1230px;
-    margin: 0;
-    
-
+    overflow: hidden;
 }
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(0, 0, 116, 0.15), rgba(0, 0, 112, 0.15)),
+        url(../img/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(1) contrast(1.5) saturate(2) hue-rotate(10deg);
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+
 
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    border: solid 1px black;
+
 
 }
 
-li {
-    border: solid 1px black;
-
-}
+li {}
 
 .navbar {
     width: 100%;
     display: flex;
     align-items: center;
-
 }
 
 .navbar-buttons {
@@ -39,17 +50,18 @@ li {
     margin-left: 180px;
     width: 500px;
     font-family: "Poppins";
-
 }
+
 
 .navbar-buttons * {
     font-size: 17px;
     line-height: 32px;
-    width: 85px;
+    width: 86px;
     height: 75px;
     padding-left: 0px;
     padding-right: 0px;
     text-align: center;
+    padding-bottom: 4px;
     font-size: 17px;
 
 }
@@ -63,12 +75,9 @@ li {
     justify-content: center;
     align-items: end;
     text-align: center;
-    font-size: 17px;
-    line-height: 32px;
-    width: 85px;
-    height: 75px;
     color: white;
     text-decoration: none;
+
 
 }
 
@@ -89,7 +98,10 @@ li {
     background-color: #f7672c;
 }
 
-.navbar .icon-bars {}
+.navbar .icon-bars {
+    margin-left: 890px;
+    margin-top: 32px;
+}
 
 .logo {
     margin-left: 60px;
@@ -150,6 +162,14 @@ a {
     font-weight: 700;
     font-family: "Poppins";
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-1-text img {
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .title-1 p {
@@ -182,6 +202,10 @@ a {
     height: 69px;
     border: 0;
 
+}
+
+.navbar-buttons .btn-wider {
+    width: 120px;
 }
 
 .btn-orange {
@@ -281,4 +305,253 @@ a {
     font-weight: 700;
     font-family: "Poppins";
     text-align: center;
+}
+
+.bubble-icon {
+    width: 15px;
+    height: 16px;
+    background-color: #f7672c;
+    border-radius: 10000px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.side-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.btn-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-arrow-blue {
+    color: #0bd7f7;
+    border: 2px solid #0bd7f7;
+}
+
+.btn-arrow-white {
+    color: #000000;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+}
+
+
+.left-arrow i {
+    transform: rotate(0deg);
+}
+
+
+.right-arrow i {
+    transform: rotate(0deg);
+}
+
+/* Play Button Container */
+/* Play Button Container */
+.play-button {
+    position: absolute;
+    right: 450px;
+    /* Adjust this position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Outer Layer (biggest circle with lowest opacity) */
+.outer-layer {
+    width: 230px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 0.188);
+    /* White with lower opacity */
+    border-radius: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Middle Layer (slightly smaller circle with medium opacity) */
+.middle-layer {
+    width: 176px;
+    height: 176px;
+    border-radius: 88px;
+    background-color: rgba(255, 255, 255, 0.110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Inner Layer (smallest, solid orange circle) */
+.inner-layer {
+    width: 113px;
+    height: 114px;
+    border-radius: 57px;
+    background-color: #f7672c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    /* Larger play icon */
+}
+
+/* Play Icon Styling */
+.play-button i {
+    font-size: 32px;
+    /* Larger icon */
+    color: white;
+}
+
+/* Container for the carousel */
+.carousel-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+/* Style for the carousel buttons */
+.carousel-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carousel-btn i {
+    font-size: 24px;
+    color: #333333;
+}
+
+/* Hover effect for buttons */
+.carousel-btn:hover {
+    background-color: #f5f5f5;
+}
+
+/* Position for the left button */
+.left-btn {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Position for the right button */
+.right-btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Example styling for carousel items */
+.carousel-items {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 0 60px;
+    /* To give space for the buttons */
+}
+
+.carousel-item {
+    min-width: 150px;
+    margin: 0 10px;
+}
+
+.carousel-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+/* Style for the carousel buttons */
+.carousel-btn {
+    width: 70px;
+    height: 66px;
+    background-color: #ffffff;
+    border: 2.51px solid #dddddd;
+}
+
+.carousel-btn i {
+    font-size: 24px;
+    color: #333333;
+}
+
+/* Hover effect for buttons */
+.carousel-btn:hover {
+    background-color: #f5f5f5;
+}
+
+/* Position for the left button */
+.left-btn {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Position for the right button */
+.right-btn {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Roulette section (scrollable container) */
+.roullete {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    gap: 0;
+}
+
+.roullete-icons {
+    width: 235px;
+    height: 226px;
+    
+    background-color: #ffffff;
+    border: 2.51px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roullete-icons img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1a1919;
+    font-weight: 700;
+    font-family: "Poppins";
 }
