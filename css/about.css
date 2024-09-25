@@ -1,5 +1,5 @@
 .about-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.141), rgba(0, 0, 0, 0.141)),
     url(../img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.png);
   background-size: cover;
   background-position: center;
@@ -7,10 +7,13 @@
   width: 100vw;
   height: 100vh;
   background-color: rgb(32, 32, 32);
+  
 }
 
 .about-title {
   display: flex;
+  
+  
 }
 
 .about-item2 {
@@ -20,6 +23,7 @@
   font-weight: 700;
   font-family: "Poppins";
 }
+
 .about-item3 {
   margin-left: 10px;
   font-size: 42px;
@@ -28,44 +32,64 @@
   font-weight: 700;
   font-family: "Poppins";
 }
+
 .about-item4 {
+  width: 571px;
+  height: 189px;
+  font-size: 17px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
   margin-left: 374px;
   margin-top: 35px;
   margin-bottom: 250px;
+  line-height: 2;
   color: white;
   font-weight: 400;
   font-family: "Poppins";
 }
+
 .about-img1 {
   margin-top: 146px;
   margin-left: 375px;
 }
+
 .btn {
   color: white;
-  background-color: #f7672b;
-  border: 1px solid #f7672b;
-  height: 48px;
-  width: 138px;
+  border: 0;
   margin-left: 373px;
-  margin-top: 50px;
+  margin-top: 120px;
+  width: 138px;
+  height: 47px;
+  background-color: #f7672c;
+
 }
-.btn:hover {
-  background-color: #ff8652d0;
-  border-color: #ff8652d0;
-  font-size: 25px;
+
+.btn-text {
+  font-size: 17px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
 }
+
+
 .about-item5 {
   display: flex;
   height: 175px;
 }
+
 .about-img2 {
   margin-left: 100px;
   height: 5px;
   width: 5px;
 }
+
 body {
   margin: 0;
 }
+
 .about-dot {
   border: 1px solid white;
   width: 14px;
