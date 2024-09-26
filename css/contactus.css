@@ -1,21 +1,19 @@
-/* General Styles */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
   min-height: 100vh;
-  background-color: #f7f7f7;
 }
 
 .container {
   background-image: url(../img/contactus2.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1950px 300px;
   width: 100%;
-  min-height: 100vh;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +21,8 @@ body {
 }
 
 .container-title {
-  padding-bottom: 40px;
+  padding-bottom: 80px;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -37,34 +36,38 @@ h1 {
 .img1 {
   width: 51px;
   height: 48px;
-
+  vertical-align: middle;
   margin-right: 10px;
 }
 
 .context {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../img/Maps.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 40px;
+  min-height: 650px;
 }
-
-
 
 .container-form {
   background-color: white;
-  width: 500px;
+  margin-top: 320px;
+  width: 690px;
+  height: auto;
   padding: 30px;
   border-radius: 30px;
-  box-shadow: 2px 3px 14px 9px rgba(0, 0, 0, 0.13);
- 
-  margin: 0 auto;
+  box-shadow: 2px 3px 14px 9px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  /* Ensures form and text are separated */
 }
 
 form {
-
- 
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
 
 form label {
@@ -72,10 +75,10 @@ form label {
   font-weight: 600;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   margin-bottom: 15px;
   padding: 10px;
-  border-radius: 5px;
   border: 1px solid #ddd;
   font-size: 1rem;
   width: 100%;
@@ -86,20 +89,38 @@ form textarea {
 }
 
 form button {
-  padding: 8px 16px;
+  padding: 10px;
   background-color: #ff6b35;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
-  width: 100px;
-  
 }
 
 form button:hover {
   background-color: #e65b1f;
 }
+
+.blue-text {
+  color: #0bd7f7;
+  font-weight: bold;
+}
+
+form input {
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #f7672b;
+  font-size: 1rem;
+  width: 320px;
+  background-color: transparent;
+  outline: none;
+
+}
+
+
+
 .bubble-icon {
   width: 15px;
   height: 16px;
@@ -107,11 +128,82 @@ form button:hover {
   border-radius: 10000px;
   margin-left: 10px;
   display: inline-block;
-  
+  position: relative;
+  top: -7px;
+
 }
 
-.footer{
-  width: 100%;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #011213;
   height: 200px;
-  display: inline-block;
+  width: 100%;
+}
+
+.footer-content {
+  color: white;
+  text-align: center;
+  border-top: 1px solid white;
+  width: 1000px;
+}
+
+
+.footer-icons {
+  margin-top: 20px;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.container-form-text1,
+.container-form-text2,
+.container-form-text3 {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.container-form-text1 {
+  width: auto;
+}
+
+.container-form-text2 {
+  width: auto;
+}
+
+.container-form-text3 {
+  width: auto;
+}
+
+.container-form-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 35%;
+}
+
+.container-form-text img {
+  margin-right: 10px;
+
+}
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #f7672b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100px;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  background-color: #e65b1f; 
 }

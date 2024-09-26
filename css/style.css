@@ -221,7 +221,6 @@ a {
 
 .wave {
     margin-top: -360px;
-    /* Moves the SVG 50px higher */
 }
 
 .title-img {
@@ -231,11 +230,8 @@ a {
 .roullete {
     display: flex;
     justify-content: center;
-    /* Centers the items horizontally */
     flex-wrap: wrap;
-    /* Allows wrapping to the next line */
     gap: 20px;
-    /* Adjusts space between items */
 }
 
 .roullete-icons {
@@ -245,21 +241,17 @@ a {
     border-radius: 4px;
     background-color: #ffffff;
     border: 2.51px solid #dddddd;
-
     display: flex;
-    /* Enable flexbox */
     justify-content: center;
-    /* Horizontally center the content */
     align-items: center;
-    /* Vertically center the content */
+
 }
 
 .roullete-icons img {
     max-width: 100%;
-    /* Ensure the image doesn't overflow the container */
     max-height: 100%;
     object-fit: contain;
-    /* Ensure the image scales proportionally */
+
 }
 
 .roullete-icons {
@@ -274,7 +266,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    /* Make it relative so the text can be positioned */
+
 }
 
 .roullete-icons img {
@@ -286,7 +278,6 @@ a {
 .roullete-text {
     position: absolute;
     bottom: -30px;
-    /* Move the text below the box */
     left: 50%;
     transform: translateX(-50%);
     font-family: "Poppins";
@@ -360,12 +351,9 @@ a {
     transform: rotate(0deg);
 }
 
-/* Play Button Container */
-/* Play Button Container */
 .play-button {
     position: absolute;
     right: 450px;
-    /* Adjust this position as needed */
     top: 50%;
     transform: translateY(-50%);
     display: flex;
@@ -373,19 +361,16 @@ a {
     justify-content: center;
 }
 
-/* Outer Layer (biggest circle with lowest opacity) */
 .outer-layer {
     width: 230px;
     height: 230px;
     background-color: rgba(255, 255, 255, 0.188);
-    /* White with lower opacity */
     border-radius: 115px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Middle Layer (slightly smaller circle with medium opacity) */
 .middle-layer {
     width: 176px;
     height: 176px;
@@ -396,7 +381,6 @@ a {
     justify-content: center;
 }
 
-/* Inner Layer (smallest, solid orange circle) */
 .inner-layer {
     width: 113px;
     height: 114px;
@@ -407,17 +391,15 @@ a {
     justify-content: center;
     color: white;
     font-size: 32px;
-    /* Larger play icon */
 }
 
-/* Play Icon Styling */
+
 .play-button i {
     font-size: 32px;
-    /* Larger icon */
     color: white;
 }
 
-/* Container for the carousel */
+
 .carousel-navigation {
     display: flex;
     align-items: center;
@@ -426,7 +408,7 @@ a {
     position: relative;
 }
 
-/* Style for the carousel buttons */
+
 .carousel-btn {
     width: 50px;
     height: 50px;
@@ -443,12 +425,11 @@ a {
     color: #333333;
 }
 
-/* Hover effect for buttons */
 .carousel-btn:hover {
     background-color: #f5f5f5;
 }
 
-/* Position for the left button */
+
 .left-btn {
     position: absolute;
     left: 20px;
@@ -456,7 +437,7 @@ a {
     transform: translateY(-50%);
 }
 
-/* Position for the right button */
+
 .right-btn {
     position: absolute;
     right: 20px;
@@ -464,13 +445,12 @@ a {
     transform: translateY(-50%);
 }
 
-/* Example styling for carousel items */
+
 .carousel-items {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 0 60px;
-    /* To give space for the buttons */
 }
 
 .carousel-item {
@@ -486,7 +466,7 @@ a {
     width: 100%;
 }
 
-/* Style for the carousel buttons */
+
 .carousel-btn {
     width: 70px;
     height: 66px;
@@ -499,12 +479,12 @@ a {
     color: #333333;
 }
 
-/* Hover effect for buttons */
+
 .carousel-btn:hover {
     background-color: #f5f5f5;
 }
 
-/* Position for the left button */
+
 .left-btn {
     position: absolute;
     left: 100px;
@@ -512,7 +492,7 @@ a {
     transform: translateY(-50%);
 }
 
-/* Position for the right button */
+
 .right-btn {
     position: absolute;
     right: 100px;
@@ -520,7 +500,7 @@ a {
     transform: translateY(-50%);
 }
 
-/* Roulette section (scrollable container) */
+
 .roullete {
     margin-top: 30px;
     display: flex;
